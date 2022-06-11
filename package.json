@@ -1,0 +1,26 @@
+{
+  "name": "athena-hack",
+  "version": "1.0.0",
+  "description": "Daughters of Athena competition entry. ",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arianai/athena-hack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arianai/athena-hack/issues"
+  },
+  "homepage": "https://github.com/arianai/athena-hack#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
