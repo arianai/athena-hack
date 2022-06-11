@@ -7,4 +7,12 @@ app.get("^/$|/index(.html)?", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
+app.get("^/$|/home(.html)?", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "home.html"));
+});
+
+app.get("^/$|/meeting(.html)?", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "meeting.html"));
+});
+
 app.listen(PORT, () => console.log(`Server running on ${PORT}`));

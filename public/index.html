@@ -5,11 +5,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Re-Fill</title>
+  <link rel="stylesheet" type="text/css" href="/styles/styles.css"> <!-- fix style href link -->
+  <title>Login to Re-Fill</title>
 </head>
 
 <body>
-  <h1>Index</h1>
+  <h1>Hello, <strong>Kateryna</strong> 👋</h1>
+  <form id="contact-form" action="http://localhost:3000/home">
+    <fieldset>
+      <label>
+        Name:
+        <input type="text" id="name" name="name" value="Kateryna"></input>
+      </label>
+      <label>
+        Email:
+        <input type="text" id="email" name="email" value="kateryna@me.com"></input>
+      </label>
+      <label>
+        Message:
+        <input type="password" id="message" name="message" value="Kateryna"></input>
+      </label>
+    </fieldset>
+    <p>Forgot password?</p>
+    <button type="submit">Login</button>
+  </form>
 </body>
 
 </html>
