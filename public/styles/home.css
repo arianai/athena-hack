@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 24px;
+  font-family: Roboto, "Helvetica Neue";
+  min-height: 100vh;
+  color: #000000;
+  background-color: #fafafa;
+}
+#header {
+  border-bottom: 1px solid black;
+  display: block;
+  height: 100px;
+  width: 100;
+}
+
+h1 {
+  font-weight: 100;
+  padding-bottom: 40px;
+  display: block;
+  margin-top: 100px;
+}
+
+#logo {
+  width: 150px;
+  padding: 15px;
+}
